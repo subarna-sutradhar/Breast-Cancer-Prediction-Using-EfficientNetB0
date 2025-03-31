@@ -1,7 +1,7 @@
 # Major_Project Improved
 College Major Project on Breast Cancer Detection using EfficientNetB0
 
-Primary goal of project is to classify mammography images as cancerous or non-cancerous.
+This project aims to classify mammography images into cancerous or non-cancerous using an improved model based on **EfficientNetB0** architecture, offering better performance and accuracy than previous models such as ResNet101.
 
 Dataset:
 https://www.kaggle.com/datasets/hayder17/breast-cancer-detection/data
@@ -42,9 +42,13 @@ The training data is imbalanced containing 1569 healthy cases and 803 cancer cas
 
 ![plot](./Screenshots/Results_page.png)
 
+
+## Key Features:
+* The model is trained using Transfer learning on **EfficientNetB0**.
+* Tensorflow and Keras is used.
+* **Oversampling** is used in the training data to negate the effects of data imbalance.
+* Improved accuracy and performance over the ResNet101-based approach.
+
 ### Note:
 The data analysis and model building process is present in ModelBuild.ipynb file.
-## Key Features:
-* The model is trained using Transfer learning on EfficientNetB0.
-* Tensorflow and Keras is used.
-* Oversampling is used in the training data to negate the effects of data imbalance.
+
