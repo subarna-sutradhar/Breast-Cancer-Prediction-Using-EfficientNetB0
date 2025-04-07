@@ -46,7 +46,7 @@ The training data is imbalanced containing 1569 healthy cases and 803 cancer cas
 ## Key Features:
 * The model is trained using Transfer learning on **EfficientNetB0**.
 * Tensorflow and Keras is used.
-* **Oversampling** is used in the training data to negate the effects of data imbalance.
+* **Class Weights** are used in the training data to negate the effects of data imbalance.
 * Improved accuracy and performance over the ResNet101-based approach.
 
 ### Note:
